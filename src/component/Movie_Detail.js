@@ -24,10 +24,10 @@ const MoviesDetail = () => {
             <br />
             <Container fluid>
                 {!movieLoading && movie && !castLoading && castdetails ? <Row style={{ width: "100%" }}>
-                    <Col md lg="2" className="justify-content-start">
-                        <Image className="image-set" src={`https://image.tmdb.org/t/p/w185${movie.poster_path}`} rounded />
+                    <Col md="4" lg="3" className="justify-content-start">
+                        <Image src={`https://image.tmdb.org/t/p/w185${movie.poster_path}`} rounded />
                     </Col>
-                    <Col md lg="10">
+                    <Col md="8" lg="9">
                         <Row className="rowclass">
                             <p className="justify-content-start detail-line"><b>{movie.title}</b><pre>   </pre>({movie.vote_average})</p>
                         </Row>
