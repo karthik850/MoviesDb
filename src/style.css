@@ -1,0 +1,54 @@
+.row>*{
+    padding-left: 0.3rem !important;
+    padding-right: 0.3rem !important;
+}
+
+.card-title{
+font-size: 15px !important;
+
+}
+.card-body{
+    padding: 5px !important;
+}
+
+.card-text{
+    font-size: 12px !important;
+}
+
+.movieTitle{
+    display: inline-flex;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.container-fluid{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+.nav{
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px rgb(61, 60, 60);
+    padding: 10px;
+}
+.search-item{
+    width: 80% !important;
+}
+
+.home-link{
+    color: rgb(56, 55, 55);
+}
+.card{
+
+    box-shadow: 2px 2px 5px rgb(61, 60, 60);
+}
+
+.detail-line{
+    display: inline-flex;
+}
+.description-text{
+    text-align: justify;
+  text-justify: inter-word;
+}
+.image-set{
+    float:left
+}
